@@ -5,7 +5,7 @@ Analyse financière comparative de 5 actions du CAC 40 en 2024.
 Projet Python d'exploration de données boursières, extraction via API et visualisation des indicateurs clés (rendements, volatilité).
 
 **Objectif** : Analyser les performances et caractéristiques de risque/rendement pour 5 valeurs majeures du marché français.
-
+---
 ## Actions analysées
 
 - **TotalEnergies (TTE)** — Énergie
@@ -13,6 +13,8 @@ Projet Python d'exploration de données boursières, extraction via API et visua
 - **Airbus (AIR)** — Aéronautique
 - **LVMH (MC)** — Luxe
 - **Sanofi (SAN)** — Pharmacie
+- 
+  ---
   
 ## Méthodologie
 
@@ -31,7 +33,7 @@ Projet Python d'exploration de données boursières, extraction via API et visua
 - Distribution des rendements
 - Comparaison volatilité/rendement
 
-
+---
 ## Résultats clés (2024)
 | Action | Rendement | Volatilité |
 |---|---|---|
@@ -41,7 +43,7 @@ Projet Python d'exploration de données boursières, extraction via API et visua
 | Airbus | -6.88% | 28.66% |Négatif & volatil |
 | Sanofi | -9.31% | 19.16% | Pire performance |
 
-
+---
 ## Installation & Utilisation
 
 ### Prérequis
