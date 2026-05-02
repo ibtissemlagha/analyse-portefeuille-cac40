@@ -36,13 +36,13 @@ Analyse financière comparative de 5 actions du CAC 40 en 2024. Ce projet ne se 
 ---
 ## Résultats clés (2024)
 
-| Action | Rendement | Volatilité |Diagnostic Analyste|
-|---|---|---|
-| TotalEnergies | +13.44% | 23.23% |Meilleure performance |Top Performer : Capte la hausse du secteur énergie avec une volatilité maîtrisée.|
-| LVMH | +8.65% | 17.81% |Bon ratio risque/rendement |Profil Défensif : Meilleure résilience du panel face aux turbulences de marché.|
-| BNP Paribas | +2.50% | 23.29% |Faible rendement  |Inertie : Une volatilité quasi identique à TotalEnergies pour un gain 5x inférieur.|
-| Airbus | -6.88% | 28.66% |Négatif & volatil |Risque Maximal : Performance négative accentuée par la plus forte instabilité du groupe.|
-| Sanofi | -9.31% | 19.16% | Pire performance |Baisse Structurelle : Faible volatilité mais incapacité à générer du rendement.|
+| Action | Rendement | Volatilité | Diagnostic Analyste | Explication |
+|---|---|---|---|---|
+| TotalEnergies | +13,44 % | 23,23 % | Meilleure performance | Top Performer : Capte la hausse du secteur énergie avec une volatilité maîtrisée. |
+| LVMH | +8,65 % | 17,81 % | Bon ratio risque/rendement | Profil Défensif : Meilleure résilience du panel face aux turbulences de marché. |
+| BNP Paribas | +2,50 % | 23,29 % | Faible rendement | Inertie : Une volatilité presque identique à TotalEnergies pour un gain 5x inférieur. |
+| Airbus | -6,88 % | 28,66 % | Négatif & volatil | Risque Maximal : Performance négative accentuée par la plus forte instabilité du groupe. |
+| Sanofi | -9,31 % | 19,16 % | Pire performance | Baisse Structurelle : Faible volatilité mais incapacité à générer du rendement. |
 
 Le constat métier : L'analyse révèle que le prix d'une action ne fait pas tout. Airbus est l'actif le plus "dangereux" de 2024, tandis que LVMH confirme son statut de valeur refuge avec le risque le plus bas.
 
@@ -76,9 +76,11 @@ python analyse_portefeuille_cac40.py
 
 ##  Limitations
 
-=> Biais temporel : Une analyse sur 12 mois est insuffisante pour conclure sur la solidité à long terme d'une entreprise.
-=> Dividendes : Le CAC 40 étant un indice à dividendes élevés, leur omission sous-évalue le rendement réel pour l'investisseur (notamment pour TTE et SAN).
-=> Indépendance : Ce modèle suppose que les actions sont indépendantes, or elles réagissent souvent en bloc aux annonces de la BCE.
+- Biais temporel : Une analyse sur 12 mois est insuffisante pour conclure sur la solidité à long terme d'une entreprise.
+
+- Dividendes : Le CAC 40 étant un indice à dividendes élevés, leur omission sous-évalue le rendement réel pour l'investisseur (notamment pour TTE et SAN).
+
+- Indépendance : Ce modèle suppose que les actions sont indépendantes, or elles réagissent souvent en bloc aux annonces de la BCE.
 
 ---
 
