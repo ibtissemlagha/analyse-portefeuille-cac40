@@ -1,10 +1,10 @@
-# Analyse de Portefeuille — CAC 40 (2024)
+# Analyse de Portefeuille CAC 40 : Performance & Risque (2024)
 
 ## Description
-Analyse financière comparative de 5 actions du CAC 40 en 2024. 
-Projet Python d'exploration de données boursières, extraction via API et visualisation des indicateurs clés (rendements, volatilité).
 
-**Objectif** : Analyser les performances et caractéristiques de risque/rendement pour 5 valeurs majeures du marché français.
+Analyse financière comparative de 5 actions du CAC 40 en 2024. Ce projet ne se contente pas d'extraire des chiffres : il vise à transformer des données boursières brutes en insights stratégiques pour comprendre la dynamique risque/rendement du marché français.
+
+**Objectif** : Déterminer quels actifs ont réellement créé de la valeur en 2024 en neutralisant le "bruit" de la volatilité.
 ---
 ## Actions analysées
 
@@ -35,13 +35,16 @@ Projet Python d'exploration de données boursières, extraction via API et visua
 
 ---
 ## Résultats clés (2024)
-| Action | Rendement | Volatilité |
+
+| Action | Rendement | Volatilité |Diagnostic Analyste|
 |---|---|---|
-| TotalEnergies | +13.44% | 23.23% |Meilleure performance |
-| LVMH | +8.65% | 17.81% |Bon ratio risque/rendement |
-| BNP Paribas | +2.50% | 23.29% |Faible rendement  |
-| Airbus | -6.88% | 28.66% |Négatif & volatil |
-| Sanofi | -9.31% | 19.16% | Pire performance |
+| TotalEnergies | +13.44% | 23.23% |Meilleure performance |Top Performer : Capte la hausse du secteur énergie avec une volatilité maîtrisée.|
+| LVMH | +8.65% | 17.81% |Bon ratio risque/rendement |Profil Défensif : Meilleure résilience du panel face aux turbulences de marché.|
+| BNP Paribas | +2.50% | 23.29% |Faible rendement  |Inertie : Une volatilité quasi identique à TotalEnergies pour un gain 5x inférieur.|
+| Airbus | -6.88% | 28.66% |Négatif & volatil |Risque Maximal : Performance négative accentuée par la plus forte instabilité du groupe.|
+| Sanofi | -9.31% | 19.16% | Pire performance |Baisse Structurelle : Faible volatilité mais incapacité à générer du rendement.|
+
+Le constat métier : L'analyse révèle que le prix d'une action ne fait pas tout. Airbus est l'actif le plus "dangereux" de 2024, tandis que LVMH confirme son statut de valeur refuge avec le risque le plus bas.
 
 ---
 ## Installation & Utilisation
@@ -64,6 +67,7 @@ python analyse_portefeuille_cac40.py
 ---
 
 ##  Fichiers du projet
+
 - `analyse_portefeuille_cac40.ipynb` — Notebook complet avec analyses
 - `analyse_cac40.png` — Graphique des résultats
 - `README.md` — Ce fichier
@@ -71,10 +75,10 @@ python analyse_portefeuille_cac40.py
 ---
 
 ##  Limitations
-- Analyse sur 1 an seulement (ne reflète pas les tendances long terme)
-- Ne considère pas les dividendes
-- Pas d'analyse des corrélations entre valeurs
-- Données ajustées Yahoo Finance (peut avoir des décalages)
+
+=> Biais temporel : Une analyse sur 12 mois est insuffisante pour conclure sur la solidité à long terme d'une entreprise.
+=> Dividendes : Le CAC 40 étant un indice à dividendes élevés, leur omission sous-évalue le rendement réel pour l'investisseur (notamment pour TTE et SAN).
+=> Indépendance : Ce modèle suppose que les actions sont indépendantes, or elles réagissent souvent en bloc aux annonces de la BCE.
 
 ---
 
@@ -90,7 +94,8 @@ python analyse_portefeuille_cac40.py
 
 ## 👤 Auteure
 **Ibtissem Lagha**  
- Intéressée par : Data Analysis | Python | Visualisation  
+
+ Future apprentie Data Analyst & BI — Curieuse de comprendre les histoires que cachent les chiffres.
  [LinkedIn](https://linkedin.com/in/ibtissem-lagha-741865336)
 
 ---
