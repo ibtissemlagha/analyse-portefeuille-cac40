@@ -13,7 +13,7 @@ Analyse financière comparative de 5 actions du CAC 40 en 2024. Ce projet ne se 
 - **Airbus (AIR)** — Aéronautique
 - **LVMH (MC)** — Luxe
 - **Sanofi (SAN)** — Pharmacie
-- 
+  
   ---
   
 ## Méthodologie
